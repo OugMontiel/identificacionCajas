@@ -1,5 +1,23 @@
 *{
-    padding: 0;
+    padding: 2px;
     margin: 0;
     border: 1px solid black;
+}
+.todo{
+    background-color: #315975;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+.derecha, .izquierda{
+    padding: 10px;
+}
+.item{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+.sep{
+    padding: 5px;
 }
