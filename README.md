@@ -1,0 +1,1 @@
+![](https://github.com/OugMontiel/identificacionCajas/blob/ejercicio_1/storage/img/enunciado.png)
