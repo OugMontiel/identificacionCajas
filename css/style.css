@@ -4,20 +4,55 @@
     border: 1px solid black;
 }
 .todo{
-    background-color: #315975;
+    background-color: #d15975;
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
 
 }
-.derecha, .izquierda{
+.derecha, .izquierda, .info{
     padding: 10px;
 }
 .item{
     display: flex;
     height: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .sep{
     padding: 5px;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.ficha1 {
+    grid-column: 1; /* Izquierda */
+    grid-row: 1; /* Arriba */
+    margin: 2px;
+}
+.ficha2 {
+    grid-column: 2; /* Derecha */
+    grid-row: 1; /* Arriba */
+    margin: 2px;
+}
+.ficha3 {
+    grid-column: 1; /* Izquierda */
+    grid-row: 2; /* Abajo */
+    margin: 2px;
+}
+.ficha4 {
+    grid-column: 2; /* Derecha */
+    grid-row: 2; /* Abajo */
+    margin: 2px;
+}
+.num{
+    display: flex;
+    justify-content: space-between;
+}
+.barra {
+    height: 2px; /* Ajusta la altura de la barra según tus necesidades */
+    background: linear-gradient(to right, #ddc8ce15 var(--porcentaje), transparent var(--porcentaje)); /* Aplica el degradado */
+
+    border-radius: 5px; /* Añade esquinas redondeadas */
 }
