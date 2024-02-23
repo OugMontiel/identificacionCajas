@@ -21,3 +21,6 @@
 .Cajita{
     background-color: rgb(255, 255, 255);
 }
+.Cajita a{
+    text-decoration: none;
+}
