@@ -1,6 +1,23 @@
 @import url(variables.css);
 *{
-    padding: 0;
-    margin: 0;
+    padding:2px;
+    margin: 2px;
     box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caja{
+    background-color: #a8a8a870;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    justify-items: center;  
+    width: 200px;
+    height: 35px;
+}
+.Cajita{
+    background-color: rgb(255, 255, 255);
 }
