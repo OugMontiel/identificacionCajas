@@ -1,6 +1,18 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 0;
+    margin: 5px;
     box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+img{
+    width: 145px;
+    height: 145px;
+    box-shadow: 5px 0px 10px #cfcece, 0px 5px 10px #cfcece ;
+}
+.contenedor{
+    height: 100vh;
+    overflow: scroll;
 }
