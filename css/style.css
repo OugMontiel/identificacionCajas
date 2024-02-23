@@ -1,17 +1,19 @@
 *{
     padding: 2px;
     margin: 0;
-    border: 1px solid black;
+    border: 1px solid rgb(18, 2, 255);
 }
 .todo{
-    background-color: #d15975;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-
+    background-color: #dd9bab;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    position: relative;
 }
-.derecha, .izquierda, .info{
-    padding: 10px;
+.derecha{
+    grid-column: 2;
+}
+.izquierda{
+    grid-column: 1;
 }
 .item{
     display: flex;
