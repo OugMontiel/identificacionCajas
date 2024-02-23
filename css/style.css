@@ -4,3 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+.body{
+    background-color: rgb(138, 190, 190);
+    display: flex;
+}
+.centrar{
+    width: 300px;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+}
