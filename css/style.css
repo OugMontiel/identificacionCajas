@@ -4,3 +4,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+.todo{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #faebd7;
+    justify-content: space-around;
+}
+img {
+    width: auto; /* Ancho deseado */
+    height: 50px; /* Altura automática para mantener la proporción original */
+}
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.idioma{
+    background-color: #dbc3c3;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
