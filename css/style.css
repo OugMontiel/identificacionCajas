@@ -4,3 +4,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    height: 15vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 75vh;
+    display: flex;
+    flex-basis: 1;
+    flex-shrink: 0;
+}
+main article,main aside{
+    flex-grow: 1;
+    background-color: #bbbbbb;
+}
+main nav{
+    flex-grow: 2;
+    background-color: #aaaaaa;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+h2{
+    margin: 15px;
+    margin-left: 0px;
+}
