@@ -36,3 +36,31 @@ header{
 .navigation li:nth-last-child(-n+2) {
     justify-content: flex-end;
 }
+aside{
+    width: 30%;
+}
+main{
+    width: 70%;
+}
+.img400{
+    width: 400px;
+    height: 400px;
+}
+.img200{
+    width: 400px;
+    height: 200px;
+}
+.img668{
+    width: 668px;
+    height: 200px;
+}
+main div{
+    border-bottom: 5px;
+}
+footer{
+    height: 8%;
+    background-color:#cccccc ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
