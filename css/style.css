@@ -1,14 +1,36 @@
 *{
-    padding: 2px;
+    padding: 0px;
     margin: 0;
-    border: 1px solid rgb(18, 2, 255);
 }
 .todo{
-    background-color: #dd9bab;
-    display: grid;
-    grid-template-columns: 30% 60%;
-    position: relative;
+    background-color: #8bacca;
+    display: flex;
 }
+header{
+    background-color: #7fffd4;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.navigator{
+    flex-flow:column wrap ;
+    list-style: none;
+    background: #00bfff;
+    display: none;
+}
+header > div:first-child:hover + div .navigator {
+    display: flex;
+}
+.navigator a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #ffffff;
+}
+.navigator a:hover{
+    background: #1565C0;
+}
+
 .derecha{
     grid-column: 2;
 }
