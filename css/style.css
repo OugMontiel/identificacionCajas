@@ -13,35 +13,47 @@ body{
     gap: 15px;
 }
 .vaner{
-    background-color: burlywood;
+    background-color: #fcfcfc;
     height: 480px;
     display: flex;
     flex-direction: column;
+    border-radius:6px ;
+    box-shadow: 5px 0px 10px #cfcece, 0px 5px 10px #cfcece 
 }
 .titulo{
     background-color: salmon;
-    height: 100px;
+    height: 17%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .compra{
+    width: 90px;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
-
+    padding: 8px;
+    border-radius:10px ;
 }
+
 .content{
-    height:380PX;
+    height:83%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 6%;
+    padding-top:6%;
+    align-items: center;
 }
-
 P{
+    display: flex;
+    justify-content: center;
     padding: 5px;
     margin: 6px;
-    border-bottom: 2px groove black
+    border-bottom: 2px groove #fcfcfc23
+}
+a{
+    text-decoration: none;
 }
