@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    overflow-y: scroll;
     height: 1000px;
 }
 header{
@@ -14,15 +15,20 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
 }
-.navigation {
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background: deepskyblue;
+}
+.navigation div{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     
     list-style: none;
     margin: 0; 
-    background: deepskyblue;
 } 
 .navigation a {
     text-decoration: none;
@@ -36,26 +42,31 @@ header{
 .navigation li:nth-last-child(-n+2) {
     justify-content: flex-end;
 }
+.centro{
+    display: flex;
+}
 aside{
-    width: 30%;
+    padding: 10px;
+    background: #cccccc56;
 }
 main{
-    width: 70%;
+    padding: 10px;
+    overflow: hidden;  
 }
-.img400{
-    width: 400px;
-    height: 400px;
+h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-.img200{
-    width: 400px;
-    height: 200px;
-}
-.img668{
-    width: 668px;
-    height: 200px;
+img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 100%;
 }
 main div{
-    border-bottom: 5px;
+    border-bottom: 2px groove #adadad46;
+}
+main p{
+    padding: 4px;
 }
 footer{
     height: 8%;
