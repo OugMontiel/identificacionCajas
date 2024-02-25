@@ -4,3 +4,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    background-color: #93d9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.vaner{
+    background-color: burlywood;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    background-color: salmon;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compra{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    height:380PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+P{
+    padding: 5px;
+    margin: 6px;
+    border-bottom: 2px groove black
+}
