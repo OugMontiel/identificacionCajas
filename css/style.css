@@ -48,12 +48,11 @@ option{
 }
 .izquierda{
     /* overflow: scroll; */
-    flex-grow: 2;
     display: flex;
     flex-flow:column nowrap;
     justify-content: flex-start;
     align-items:center ;
-    overflow: scroll;
+    flex: 1;
 }
 .item{
     display: flex;
@@ -65,13 +64,12 @@ option{
     border-bottom: #cccc groove 3px;
 }
 .derecha{
-    flex-grow: 3;
     display: flex;
     flex-wrap:nowrap;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    overflow: scroll;
+    flex: 2;
 }
 .left {
     align-self: flex-start; /* Alinea el primer hijo a la derecha */
@@ -79,7 +77,10 @@ option{
 .info{
     align-self: flex-end;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+.uno, .dos{
+    display: flex;
 }
 .ficha{
     margin: 10px;
@@ -100,4 +101,20 @@ option{
     background: linear-gradient(to right, #e617517a var(--porcentaje), transparent var(--porcentaje));
     border:1px solid #ff6347;
     border-radius: 5px; 
+}
+.enorme{
+    display: flex;
+    flex-direction: column;
+    border-left: 10px;
+    width: 80vh;
+}
+.enorme div{
+    padding: 20px;
+    display: flex;
+}
+.inferior{
+    width: 100%;
+}
+.enorme h2, .enorme p{
+    padding: 10px;
 }
